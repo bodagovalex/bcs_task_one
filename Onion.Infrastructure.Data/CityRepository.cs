@@ -1,10 +1,8 @@
 ﻿using Onion.Domain.Core;
+using Onion.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using Onion.Domain.Interfaces;
 
 namespace Onion.Infrastructure.Data
 {

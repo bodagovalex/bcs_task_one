@@ -16,7 +16,6 @@ namespace Onion.Infrastructure.Operation
 
         public void RegistreUser(User user)
         {
-            // реализовать добавление пользователя.
             db.Users.Add(user);
             db.SaveChanges();
         }

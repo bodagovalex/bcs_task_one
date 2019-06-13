@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Onion.Domain.Interfaces;
-using OnionProject.Models;
-using Onion.Infrastructure.Data;
 
 namespace OnionProject.Controllers
 {

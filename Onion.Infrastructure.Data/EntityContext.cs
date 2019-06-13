@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Protocols;
+﻿using Microsoft.EntityFrameworkCore;
 using Onion.Domain.Core;
 
 namespace Onion.Infrastructure.Data

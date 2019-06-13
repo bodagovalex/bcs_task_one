@@ -1,4 +1,5 @@
 ﻿
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,29 +9,32 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form>
+        <form id="UserForm">
             <div class="form-group">
                 <label class="control-label">Ф.И.О</label>
-                <input id="fullname" class="form-control" />
+                <input id="fullname" class="form-control" placeholder="Введите Ф.И.О на Русском"/>
                 <span class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label class="control-label">Телефон:</label>
-                <input id="phone" class="form-control" />
+                <input id="phone" class="form-control" placeholder="Введите 11 значный номер"/>
                 <span class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label class="control-label">Email:</label>
-                <input id="email" class="form-control" />
+                <input id="email" class="form-control" placeholder="Введите почту в формате alex@mail.ru"/>
                 <span class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label class="control-label">Город:</label>
-                <input id="city" class="form-control" />
+                <select id="city" class="form-control">
+
+                </select>
                 <span class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input id="submit_btn" value="Создать" class="btn btn-default" />
+            
+            <div class="form-group" style="margin-top:20px">
+                <input id="submit_btn" value="Создать" class="btn btn-default" onclick="RegistredUser()"/>
             </div>
         </form>
     </div>
