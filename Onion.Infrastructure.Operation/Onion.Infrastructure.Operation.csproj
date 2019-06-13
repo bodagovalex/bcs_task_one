@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Onion.Infrastructure.Data\Onion.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Onion.Services.Interfaces\Onion.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
